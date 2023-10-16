@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 
 from handlers import menu
 
+from utils import texts
+
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
@@ -26,5 +28,5 @@ if __name__ == "__main__":
         load_dotenv(args.env)
 
     # Start bot
-    bot = Bot(token=getenv("BOT_TOKEN"), parse_mode="HTML")
+    bot = Bot(token=getenv("BOT_TOKEN"), parse_mode=texts.PARSE_MODE)
     asyncio.run(dp.start_polling(bot))

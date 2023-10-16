@@ -45,9 +45,7 @@ async def menu2(callback_query: types.CallbackQuery):
 @router.callback_query(filters.CallbackData("compare_analytics"))
 async def menu3(callback_query: types.CallbackQuery):
     message = callback_query.message
-    await message.edit_caption(
-        caption=texts.COMPARE_ANALYTICS, reply_markup=keyboards.to_main_menu
-    )
+    await message.answer(text=texts.COMPARE_ANALYTICS)
 
 
 @router.callback_query(filters.CallbackData("sources"))

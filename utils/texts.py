@@ -36,3 +36,39 @@ SOURCES = """
 https://t.me/bykhadzakos
 https://t.me/d0gied_channel
 """
+
+### SOCIAL CITY
+
+SOCIAL_AREA_PLANING = """
+<b>Меню 1.1</b>
+"""
+
+SOCIAL_CULTURE = """
+<b>Меню 1.2</b>
+"""
+
+SOCIAL_ECONOMY = """
+<b>Меню 1.3</b>
+"""
+
+SOCIAL_SOCIAL_POLICY = """
+<b>Меню 1.4</b>
+"""
+
+### CAPITAL CITY
+
+CAPITAL_AREA_PLANING = """
+<b>Меню 2.1</b>
+"""
+
+CAPITAL_CULTURE = """
+<b>Меню 2.2</b>
+"""
+
+CAPITAL_ECONOMY = """
+<b>Меню 2.3</b>
+"""
+
+CAPITAL_SOCIAL_POLICY = """
+<b>Меню 2.4</b>
+"""

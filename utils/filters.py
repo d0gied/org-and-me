@@ -1,5 +1,6 @@
 from aiogram.types import Message, CallbackQuery
 
+
 class CallbackData:
     def __init__(self, *commands) -> None:
         self.commands = []

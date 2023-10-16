@@ -28,7 +28,9 @@ to_social_city = to_social_city.as_markup()
 
 # social_city
 capital_city = InlineKeyboardBuilder()
-capital_city.button(text="Организация пространства", callback_data="capital_area_planing")
+capital_city.button(
+    text="Организация пространства", callback_data="capital_area_planing"
+)
 capital_city.button(text="Культура", callback_data="capital_culture")
 capital_city.button(text="Экономика", callback_data="capital_economy")
 capital_city.button(text="Социальная политика", callback_data="capital_social_policy")

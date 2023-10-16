@@ -35,7 +35,9 @@ async def menu1(callback_query: types.CallbackQuery):
 async def menu2(callback_query: types.CallbackQuery):
     message = callback_query.message
     await message.edit_media(
-        media=InputMediaPhoto(media=texts.CAPITAL_CITY_PHOTO, caption=texts.CAPITAL_CITY),
+        media=InputMediaPhoto(
+            media=texts.CAPITAL_CITY_PHOTO, caption=texts.CAPITAL_CITY
+        ),
         reply_markup=keyboards.capital_city,
     )
 

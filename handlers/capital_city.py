@@ -6,6 +6,7 @@ from utils import filters, keyboards, texts
 
 router = Router(name=__name__)
 
+
 @router.callback_query(filters.CallbackData("capital_info"))
 async def area_planing(callback_query: types.CallbackQuery):
     message = callback_query.message

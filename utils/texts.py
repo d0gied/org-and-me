@@ -31,3 +31,8 @@ CAPITAL_CITY = """
 COMPARE_ANALYTICS = """
 <b>Меню 3</b>
 """
+
+SOURCES = """
+https://t.me/bykhadzakos
+https://t.me/d0gied_channel
+"""

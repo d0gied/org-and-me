@@ -45,6 +45,11 @@ async def menu1(callback_query: types.CallbackQuery):
 async def menu1(callback_query: types.CallbackQuery):
     message = callback_query.message
     await message.edit_text(text=texts.COMPARE_ANALYTICS, reply_markup=keyboards.to_main_menu)
+    
+@router.callback_query(CallbackData("sources"))
+async def menu1(callback_query: types.CallbackQuery):
+    message = callback_query.message
+    await message.edit_text(text=texts.SOURCES, reply_markup=keyboards.to_main_menu)
 
 
 @router.callback_query(CallbackData("main_menu"))

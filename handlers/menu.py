@@ -29,22 +29,22 @@ async def start(message: Message):
     await message.answer(text=texts.MAIN_MENU, reply_markup=keyboards.main_menu)
 
 
-@router.callback_query(CallbackData("menu1"))
+@router.callback_query(CallbackData("social_city"))
 async def menu1(callback_query: types.CallbackQuery):
     message = callback_query.message
-    await message.edit_text(text=texts.MENU_1, reply_markup=keyboards.to_main_menu)
+    await message.edit_text(text=texts.SOCIAL_CITY, reply_markup=keyboards.to_main_menu)
 
 
-@router.callback_query(CallbackData("menu2"))
+@router.callback_query(CallbackData("capital_city"))
 async def menu1(callback_query: types.CallbackQuery):
     message = callback_query.message
-    await message.edit_text(text=texts.MENU_2, reply_markup=keyboards.to_main_menu)
+    await message.edit_text(text=texts.CAPITAL_CITY, reply_markup=keyboards.to_main_menu)
 
 
-@router.callback_query(CallbackData("menu3"))
+@router.callback_query(CallbackData("compare_analytics"))
 async def menu1(callback_query: types.CallbackQuery):
     message = callback_query.message
-    await message.edit_text(text=texts.MENU_3, reply_markup=keyboards.to_main_menu)
+    await message.edit_text(text=texts.COMPARE_ANALYTICS, reply_markup=keyboards.to_main_menu)
 
 
 @router.callback_query(CallbackData("main_menu"))

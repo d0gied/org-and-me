@@ -20,14 +20,14 @@ MAIN_MENU = """
 <b>Главное меню</b>
 """
 
-MENU_1 = """
+SOCIAL_CITY = """
 <b>Меню 1</b>
 """
 
-MENU_2 = """
+CAPITAL_CITY = """
 <b>Меню 2</b>
 """
 
-MENU_3 = """
+COMPARE_ANALYTICS = """
 <b>Меню 3</b>
 """
